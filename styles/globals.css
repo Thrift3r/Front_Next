@@ -1,10 +1,13 @@
-:root {
-  
-}
 html {
+  margin: 0;
+  padding: 0;
   font-size: 62.5%;
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
