@@ -7,7 +7,19 @@ export default function Home() {
     <Layout
       title={'Index'}
     >
-      <h1>Thrift3r!!</h1>
+      <div className={styles.index_page}>
+        <div>
+          <div className={styles.index_intro}>
+            <h1>
+              Busca lo que quieras <br/> 
+              al precio que quieras
+            </h1>
+          </div>
+          <div className={styles.search_box}>
+
+          </div>
+        </div>
+      </div>
     </Layout>
   )
 }

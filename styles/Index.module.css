@@ -1,0 +1,21 @@
+.index_page {
+  width: 100%;
+  height: calc(100vh - 20rem);
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  padding-top: 10rem;
+}
+.index_intro {
+  height: 25rem;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search_box {
+  border: 2px solid rgb(228, 228, 228);
+  width: 65rem;
+  height: 5rem;
+  border-radius: 25px;
+}
