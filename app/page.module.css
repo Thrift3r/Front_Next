@@ -38,7 +38,7 @@
   font-size: 2rem;
   padding-right: 1.2rem;
 }
-.search input {
+.search form input {
   border: none;
   display: block;
   background-color: transparent;
@@ -47,6 +47,7 @@
   border-radius: 30px;
   padding: 0 3rem;
   font-size: 1.8rem;
+  outline: none;
 }
 .search_button {
   cursor: pointer;
