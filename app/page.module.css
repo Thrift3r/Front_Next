@@ -1,5 +1,53 @@
+.contenedor {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7rem;
+}
 .main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: auto auto;
+  height: calc(100vh - 10rem - 10rem);
+}
+.slogan {
+  display: flex;
+  flex-direction: column;
+
+}
+.slogan h1 {
+  display: inline;
+  font-weight: 900;
+  margin: 0;
+  background-image: linear-gradient(to left, rgb(201, 0, 117), rgb(95, 0, 68));
+  color: transparent;
+  background-clip: text;
+  font-size: 6rem;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  width: 70%;
+  background-color: rgb(66, 66, 66);
+  border-radius: 30px;
+  font-size: 2rem;
+  padding-right: 1.2rem;
+}
+.search input {
+  border: none;
+  display: block;
+  background-color: transparent;
+  width: 80%;
+  height: 4rem;
+  border-radius: 30px;
+  padding: 0 3rem;
+  font-size: 1.8rem;
+}
+.search_button {
+  cursor: pointer;
 }

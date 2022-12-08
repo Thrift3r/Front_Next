@@ -25,8 +25,7 @@
   display: inline;
   font-weight: 900;
   margin: 0;
-  background-image: linear-gradient(to left, rgb(201, 0, 117), rgb(95, 0, 68));
-  color: transparent;
+  color: whitee;
   background-clip: text;
   font-size: 4rem;
 }
