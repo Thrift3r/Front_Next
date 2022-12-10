@@ -2,6 +2,9 @@
 
 import { useSearchParams } from "next/navigation"
 
+import Product from "../../components/Product/Product"
+import styles from "./search.module.css"
+
 export default function SearchProducts() {
 
   const searchParams = useSearchParams()
@@ -17,7 +20,9 @@ export default function SearchProducts() {
 
   return (
     <div>
-        hello world
+        <div className={styles.search_list}>
+          <Product />
+        </div>
     </div>
   )
 }

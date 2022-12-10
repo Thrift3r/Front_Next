@@ -8,7 +8,9 @@ export default function RootLayout({ children }) {
       <head />
       <body>
         <Navbar />
-        {children}
+          <div className='content'>
+            {children}
+          </div>
         <Footer />
       </body>
     </html>
