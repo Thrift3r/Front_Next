@@ -24,3 +24,19 @@ a {
     background: black;
   }
 }
+.footer {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  margin: auto auto;
+}
+.footer_links {
+  margin: auto auto;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  color: rgb(95, 95, 95);
+}
+.footer_links a:hover {
+  color: rgb(201, 0, 117);
+}

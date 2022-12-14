@@ -1,0 +1,31 @@
+.container {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+  margin: auto auto;
+}
+.header h1 {
+  margin: 0;
+}
+.logomarca {
+  margin: 10px 30px;
+}
+.logomarca__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.logomarca__link h1 {
+  display: inline;
+  font-weight: 900;
+  margin: 0;
+  color: whitee;
+  background-clip: text;
+  font-size: 4rem;
+}
